@@ -1,0 +1,111 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font: sans-serif;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    overflow:hidden;
+
+}
+.contain{
+    width: 400px;
+    margin: 100px auto;
+
+    position : absolute;
+    top : 50%;
+    margin-left: -200px;
+    left: 50%;
+    margin-top: -172px;
+
+}
+h1{
+    color: #ef5350;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: #ef5350;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.button:hover{
+   background-color: #c62828;
+}
+.button:active{
+   background-color: #d50000;
+}
+
+.right, .left , .top , .bottom{
+    font-size: 50px;
+}
+.right>p{
+    margin-top: 20px;
+}
+.left>p{
+    margin-top: 20px;
+}
+.shoot{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+
+    background-image: url('../ico/target-audience-64.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.top{
+    display: block;
+    margin: auto;
+
+    background-image: url('../ico/arrow-141-64.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom{
+    display: block;
+    margin: 20px auto;
+
+    background-image: url('../ico/arrow-141-64.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-transform:  rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+}
+
+.right{
+    float: right;
+    background-image: url('../ico/arrow-141-64.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-transform:  rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.left{
+    float: left;
+    background-image: url('../ico/arrow-141-64.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-transform:  rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
